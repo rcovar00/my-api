@@ -17,7 +17,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-Navigate to the application directory and run
+Navigate to the application directory and run:
+```docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v $(pwd):/var/www/html \
+    -w /var/www/html \
+    laravelsail/php81-composer:latest \
+    composer install --ignore-platform-reqs```
+
+Then execute the following command:
 ```./vendor/bin/sail up```
 
 The first time you run the command could take several minutes. Subsequent attempts to start will be much faster.
