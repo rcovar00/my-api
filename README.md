@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* Docker Desktop
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * Copy of the project in your local computer
 
 ### Installation
@@ -24,7 +24,7 @@ The first time you run the command could take several minutes. Subsequent attemp
 
 ## Usage
 
-Call the endpoint `{host}/v1/fibonacci_number?n=6`
+Call the endpoint GET `{host}/v1/fibonacci_number?n=6`
 
 `n` is the index of the fibonacci number
 
