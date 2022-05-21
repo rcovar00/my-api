@@ -24,21 +24,23 @@ The first time you run the command could take several minutes. Subsequent attemp
 
 ## Usage
 
+Call the endpoint `{host}/v1/fibonacci_number?n=6`
+
+`n` is the index of the fibonacci number
 
 ## Roadmap
-- [x] Limit request per minute
+- [x] Limit requests per minute
 - [ ] Validate input
 - [ ] Document endpoint with Postman
 - [ ] Implement tests and enable repository in Travis CI
 - [ ] Reduce time complexity of the algorithm to calculate the fibonacci value
-- [ ] Remove unecessary code
+- [ ] Remove unnecessary code
 - [ ] Remove unused service providers
 
 
 ## Technical Decisions
-- PHP 8 was selected because it works really well for web applications, there is a great community support and this version contains performance upgrades and new features.
-- I chose Laravel framework due to provides many modules to work with an API like limit requests per minute, validate information, maintainance mode, authentication, errors and loggin, events, caching, etc.
-
+- PHP 8 was selected because it works really well for web applications, there is great community support and this version contains performance upgrades and new features.
+- I chose Laravel framework due to provides many modules to work with an API like limit requests per minute, validate information, maintenance mode, authentication, errors and logging, events, caching, etc.
 
 ## Author
 
