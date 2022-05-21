@@ -23,7 +23,8 @@ Navigate to the application directory and run:
     -v $(pwd):/var/www/html \
     -w /var/www/html \
     laravelsail/php81-composer:latest \
-    composer install --ignore-platform-reqs```
+    composer install --ignore-platform-reqs 
+```
 
 Then execute the following command:
 ```./vendor/bin/sail up```
