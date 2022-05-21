@@ -18,7 +18,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation
 
 Navigate to the application directory and run:
-```docker run --rm \
+```
+docker run --rm \
     -u "$(id -u):$(id -g)" \
     -v $(pwd):/var/www/html \
     -w /var/www/html \
